@@ -1,0 +1,29 @@
+
+@media (max-width: 768px) {
+    .faq-grid {
+      grid-template-columns: 1fr;
+    }
+    .main{
+        display: block;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .get-started-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .content,
+    .images {
+      max-width: 100%;
+    }
+  
+    .images {
+      justify-content: center;
+    }
+  
+    .images img {
+      max-width: 80px;
+    }
+  }
